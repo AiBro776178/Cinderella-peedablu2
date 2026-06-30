@@ -941,8 +941,8 @@ async def log_extraction_to_channel(bot, user_id, user_name, user_username, batc
 
         # Forward all sent files to log channel
         if message_ids and chat_id:
-            # Delay before forwarding to log channel (13s)
-            await asyncio.sleep(13)
+            # Delay before forwarding to log channel (9s)
+            await asyncio.sleep(9)
             forwarded = 0
             for msg_id in message_ids:
                 try:
